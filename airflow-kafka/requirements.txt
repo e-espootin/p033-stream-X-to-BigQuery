@@ -1,0 +1,3 @@
+pache-airflow-providers-amazon==8.28.0
+kafka-python-ng
+apache-airflow-providers-google==10.15.0
