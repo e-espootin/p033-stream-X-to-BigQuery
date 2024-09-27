@@ -64,7 +64,7 @@ class MyKafkaManager:
         try:
             logging.info(f"Consuming messages from topic: {self.topic_name}")
             current_timestamp = datetime.now().timestamp() 
-            
+
             #
             
             if not self.consumer:
@@ -73,11 +73,6 @@ class MyKafkaManager:
             logging.info(f"start reading messages from consumer...")
             messages = []
             # Poll messages from consumer
-    
-            #logging.info(f"offsets for times: {self.consumer.beginning_offsets()}")
-            #logging.info(f"end offsets: {self.consumer.end_offsets()}")
-
-
             
             for msg in self.consumer:
                 #logging.info(f"offset position: {self.consumer.position(self.consumer.assignment().pop())}")

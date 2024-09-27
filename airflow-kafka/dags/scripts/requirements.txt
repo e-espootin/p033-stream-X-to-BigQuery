@@ -1,7 +1,2 @@
-
-#tweepy
 dotenv
- 
-#kafka 
 kafka-python-ng # works finally
-#kafka-python # not working

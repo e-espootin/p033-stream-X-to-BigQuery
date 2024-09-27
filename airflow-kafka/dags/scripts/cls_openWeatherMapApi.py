@@ -4,7 +4,7 @@ import requests
 from typing import Dict, Any
 from airflow.models import Variable
 
-# openweathermap_api_key = 'bd8b3dce0a905f2df4bcdcbf7a34618d'
+
 class OpenWeatherMapAPIClass:
     def __init__(self):
         #self.api_key = os.getenv('openweathermap_api_key')
@@ -39,9 +39,3 @@ class OpenWeatherMapAPIClass:
         }
     
     
-
-# Usage example:
-# api_key = "your_openweathermap_api_key"
-# weather_api = OpenWeatherMapAPI(api_key)
-# weather_data = weather_api.get_formatted_weather_data("London")
-# print(weather_data)

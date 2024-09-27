@@ -2,7 +2,6 @@ from google.cloud import bigquery
 from google.oauth2 import service_account
 import pandas as pd
 import logging
-
 from airflow.providers.google.cloud.hooks.bigquery import BigQueryHook
 
 class BigQueryWriter:
